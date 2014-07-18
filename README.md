@@ -1,0 +1,4 @@
+MDA
+===
+
+This tool helps defense analysts create visualizations of their multi-dimensional analyses (a research technique used for identifying and analyzing the pieces of amorphous criminal networks by first identifying the processes they must undertake, then identifying the types of people they would need to do those tasks, then working from whatever information they already have about the network to quickly narrow down their hypotheses about who could be involved at the other steps). The visualizer allows analysts to type in a list of people and processes, using indentation to indicate which tasks are prerequisites of which and the hierarchy of the people involved. Then it draws a picture. It automatically detects the difference between processes and people, and it labels them differently with different colors and shapes. Uses the Graphviz gem for the drawing. 
